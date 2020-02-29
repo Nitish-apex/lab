@@ -5,4 +5,6 @@ int main(){
   scanf("%s\n",x);
   printf("enter char to be replaced and replaced by\n");
   scanf("%c %c",&o,&n);
+  sreplace(x,o,n);
+}
   
